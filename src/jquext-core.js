@@ -4,11 +4,11 @@
  *
  * $$.window;
  *
- * $$.modules;
- * $$(id, deps, entry);
- *
  * $$.actions;
  * $$.execute(name);
+ *
+ * $$.modules;
+ * $$(id, deps, entry);
  *
  * Author: Edgel Young (edgel.young@gmail.com)
  *

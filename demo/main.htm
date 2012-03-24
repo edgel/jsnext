@@ -43,49 +43,15 @@
             <div id="tableHolder"></div>
 			
 		<h3>jQuext - API</h3>
-			<div id='api_section' style="border: solid gray 1px; color: red; margin: 10px 0px 10px 20px; padding: 5px;"><pre>
-window: {
-	$import: jquext.$import, just to refer the jquext's $import introduction.
-	$export: jquext.$export, just to refer the jquext's $export introduction.
-	
-	jquext: {
-		debug_mode: true|false, setting debug or not with url?debug=true
-		use_console: true|false, setting use console or not with 
-			url?debug=true&console=true
-		log_levels: 0, 1-15 or level-id, setting log levels with following:
-			Mode 1: url?debug=true&levels=0, means show all 
-			Mode 2: url?debug=true&levels=num, the num means: 
-				{ 1:debug, 2:info, 4:warn, 8:error } 
-				Notice: if want to log multi level then just plus them, 
-				for example: url?debug=true&levels=14  means log
-				both info, warn and error
-			Mode 3: url?debug=true&levels=level-id[|other-level-id]
-		
-		$import: function(deps, creator), import depends, exec creator.
-			deps: [], the dependencies of module creator.
-			creator: function(mod, dmes), the module creator.
-				mod: {}, the module of this js file.
-				dmes: [], the dependency module export objects.
-				return: the module's export object. 
-			the creator will be run when all related js loaded.
-		$export: function(), template method of the module export creator.
-		
-		load: function(ids, callback);
-		log: function(level, msg, e);
-		debug: function(msg, e);
-		info: function(msg, e);
-		warn: function(msg, e);
-		error: function(msg, e);
-		has: function(vals, val);
-		rm: function(vals, val);
-		str: function(obj);
-		ele: function(id, doc);
-		eles: function(tag, doc);
-		attr: function(ele, name);
-		invoke: function(fn, args);
-	}
-}
-			</pre></div>
+			<div id='api_section' style="border: solid gray 1px; color: red; margin: 10px 0px 10px 20px; padding: 5px;">
+                <li>$$.window;
+                <p>
+                <li>$$.actions;
+                <li>$$.execute(name);
+                <p>
+                <li>$$.modules;
+                <li>$$(id, deps, entry);
+            </div>
 		
 		<div style='display:none'>
             datamodel, collapse, icon, menu, selectable, selectcheckbox, selectlistener, add, edit, delete

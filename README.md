@@ -1,94 +1,50 @@
+[jQuext](http://www.itsmesh.com/) - The javascript quick extension framework
+==================================================
+The target of this framework is modularize all your javascript codes.
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset='utf-8'>
 
-  <title>jquext/jquext @ GitHub</title>
+Contribution Guides
+--------------------------------------
 
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #8dcaa0;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #72355f; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #72355f; }
-    h3 { text-align: center; color: #72355f; }
-    a { color: #72355f; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
-</head>
+It's good action to read the guidelines before your contribution:
 
-<body>
-  <a href="https://github.com/jquext/jquext"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+1. [Getting Involved](http://docs.jquery.com/Getting_Involved)
+2. [Core Style Guide](http://docs.jquery.com/JQuery_Core_Style_Guidelines)
+3. [Tips For Bug Patching](http://docs.jquery.com/Tips_for_jQuery_Bug_Patching)
 
-  <div id="container">
 
-    <div class="download">
-      <a href="https://github.com/jquext/jquext/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/jquext/jquext/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
-    </div>
 
-    <h1><a href="https://github.com/jquext/jquext">jquext</a>
-      <span class="small">by <a href="https://github.com/jquext">jquext</a></span></h1>
+Requirements to build your own jQuext
+--------------------------------------
 
-    <div class="description">
-      The javascript quick extension framework
-    </div>
+Similar with build jQuery, you need to have GNU make 3.8 or later, Node.js 0.4.12 or later, and git 1.7 or later.
+(Earlier versions might work OK, but are not tested.)
 
-    
+Windows users have two options:
 
-    
-      <h2>Dependencies</h2>
-      <p>jQuery (Optional)</p>
-    
+1. Install [msysgit](https://code.google.com/p/msysgit/) (Full installer for official Git),
+   [GNU make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm), and a
+   [binary version of Node.js](http://node-js.prcn.co.cc/). Make sure all three packages are installed to the same
+   location (by default, this is C:\Program Files\Git).
+2. Install [Cygwin](http://cygwin.com/) (make sure you install the git, make, and which packages), then either follow
+   the [Node.js build instructions](https://github.com/ry/node/wiki/Building-node.js-on-Cygwin-%28Windows%29) or install
+   the [binary version of Node.js](http://node-js.prcn.co.cc/).
 
-    
+Mac OS users should install Xcode (comes on your Mac OS install DVD, or downloadable from
+[Apple's Xcode site](http://developer.apple.com/technologies/xcode.html)) and
+[http://mxcl.github.com/homebrew/](Homebrew). Once Homebrew is installed, run `brew install git` to install git,
+and `brew install node` to install Node.js.
 
-    
+Linux/BSD users should use their appropriate package managers to install make, git, and node, or build from source
+if you swing that way. Easy-peasy.
 
-    
-      <h2>Authors</h2>
-      <p>edgel young (edgel.young@gmail.com)
-<br/>      </p>
-    
 
-    
-      <h2>Contact</h2>
-      <p>jQuext (dreamdarling@gmail.com)
-<br/>      </p>
-    
 
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="https://github.com/jquext/jquext/zipball/master">zip</a> or
-      <a href="https://github.com/jquext/jquext/tarball/master">tar formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/jquext/jquext</pre>
-    </p>
+How to build your own jQuext
+----------------------------
 
-    <div class="footer">
-      get the source code on GitHub : <a href="https://github.com/jquext/jquext">jquext/jquext</a>
-    </div>
+1. `git clone https://github.com/jquext/jquext.git`
 
-  </div>
+2. `make clean main demo`
 
-</body>
-</html>
+3. view the samples(main.htm) in dist folder
