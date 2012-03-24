@@ -1,0 +1,63 @@
+/* tabs.css -------------------------------------------------------- */
+
+.ui-tabs {
+	display: none;
+	border: 1px solid #8DB2E3;
+}
+
+.ui-tabs .tabTitle {
+	padding-left:0px;
+	background:#E0ECFF;
+	border-bottom: 1px solid #8DB2E3;
+}
+
+.ui-tabs .tab {
+	float: left;
+	margin-top: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 1px solid #8DB2E3;
+	border-bottom: none;
+}
+
+.ui-tabs .selected {
+	float: left;
+	margin-top: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 1px solid #8DB2E3;
+	border-bottom: none;
+}
+
+.ui-tabs .tab a {
+	display:block;
+	float:left;
+	padding: 5px;
+	text-decoration: none;
+	background: url('tabs/tabs_enabled.png') repeat left bottom;
+}
+
+.ui-tabs .selected a {
+	display:block;
+	float:left;
+	padding: 5px;
+	text-decoration: none;
+	background:url('tabs/tabs_active.png') repeat left bottom;
+}
+
+.ui-tabs .tab a:link, .ui-tabs .selected a:link {
+	color:#416AA3;
+}
+
+.ui-tabs .tab a:visited, .ui-tabs .selected a:visited {
+	color:#416AA3;
+}
+
+.ui-tabs .tab a:hover, .ui-tabs .selected a:hover {
+	color:#416AA3;
+	background:url('tabs/tabs_active.png') repeat left bottom;
+}
+
+.ui-tabs .tab a:active, .ui-tabs .selected a:active {
+	color:#416AA3;
+}

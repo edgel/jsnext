@@ -1,0 +1,30 @@
+/* table.css -------------------------------------------------------- */
+
+.ui_table{
+	border: 1px solid #aaa; clear: both;
+}
+
+.ui_table_head{
+	background: #E0ECFF;font-weight: bold;clear: both;
+}
+
+.ui_table_data{
+	height:300px; overflow-y: scroll; clear: both;
+}
+
+.ui_table_row{
+	height:30px; border-bottom: 1px solid #aaa; padding: 0px;  margin: 0px; clear: both;
+}
+
+.ui_table_row_overed{
+	background: #eef;
+}
+
+.ui_table_row_selected{
+	background: #ecf; color: #000;
+}
+
+.ui_table_row li{
+	width: 200px;padding: 5px;  margin: 0px; overflow-x: hidden; display:block;  float: left; 
+	word-wrap: break-word; word-break: break-all; 
+}
