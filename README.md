@@ -14,7 +14,7 @@ It's good action to read the guidelines before your contribution:
 
 
 
-What you need to build your own jQuext
+Requirements to build your own jQuext
 --------------------------------------
 
 Similar with build jQuery, you need to have GNU make 3.8 or later, Node.js 0.4.12 or later, and git 1.7 or later.
