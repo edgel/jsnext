@@ -2,19 +2,7 @@
 ==================================================
 The target of this framework is modularize all your javascript codes.
 
-
-Contribution Guides
---------------------------------------
-
-It's good action to read the guidelines before your contribution:
-
-1. [Getting Involved](http://docs.jquery.com/Getting_Involved)
-2. [Core Style Guide](http://docs.jquery.com/JQuery_Core_Style_Guidelines)
-3. [Tips For Bug Patching](http://docs.jquery.com/Tips_for_jQuery_Bug_Patching)
-
-
-
-Requirements to build your own jQuext
+Requirements
 --------------------------------------
 
 Similar with build jQuery, you need to have GNU make 3.8 or later, Node.js 0.4.12 or later, and git 1.7 or later.
@@ -40,11 +28,15 @@ if you swing that way. Easy-peasy.
 
 
 
-How to build your own jQuext
+How to build
 ----------------------------
 
 1. `git clone https://github.com/jquext/jquext.git`
 
-2. `make clean main demo`
+2. `make clean`
 
-3. view the samples(main.htm) in dist folder
+3. `make main`
+
+4. `make demo`
+
+5. go into the 'dist' folder, open main.htm file to see the samples
