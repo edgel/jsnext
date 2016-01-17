@@ -1,5 +1,7 @@
 [jQuext](http://www.itsmesh.com/) - The javascript quick extension framework
 ==================================================
+
+[![Join the chat at https://gitter.im/edgel/jquext](https://badges.gitter.im/edgel/jquext.svg)](https://gitter.im/edgel/jquext?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 The target of this framework is modularize all your javascript codes.
 
 Requirements
