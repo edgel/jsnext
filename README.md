@@ -1,4 +1,4 @@
-[jQuext](http://www.itsmesh.com/) - The javascript quick extension framework
+[jsnext](http://yeahzhu.com/) - The javascript quick extension framework
 ==================================================
 The target of this framework is modularize all your javascript codes.
 
