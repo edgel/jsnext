@@ -1,4 +1,4 @@
-[jsnext](http://yeahzhu.com/) - The javascript quick extension framework
+[jsnext](http://yeahzhu.com/) - javascript new extension
 ==================================================
 The target of this framework is modularize all your javascript codes.
 
@@ -31,7 +31,7 @@ if you swing that way. Easy-peasy.
 How to build
 ----------------------------
 
-1. `git clone https://github.com/jquext/jquext.git`
+1. `git clone https://github.com/jsnext/jsnext.git`
 
 2. `make clean`
 
