@@ -1,4 +1,4 @@
-Javascript New Extension for frontend development
+Javascript New Extension for frontend framework
 =================================================
 The target of this framework is modularize all your javascript codes.
 
