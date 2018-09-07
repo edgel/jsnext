@@ -1,5 +1,5 @@
-[jsnext](http://yeahzhu.com/) - javascript new extension
-==================================================
+Javascript New Extension for frontend development
+=================================================
 The target of this framework is modularize all your javascript codes.
 
 Requirements
