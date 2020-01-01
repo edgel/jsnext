@@ -1,4 +1,4 @@
-# Jsnext
+# Jquext
 
 Javascript New Extension for frontend framework
 
