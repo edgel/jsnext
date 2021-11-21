@@ -1,30 +1,25 @@
 # Jsnext
 
-Javascript New Extension for frontend framework
+Javascript SPA with the nextjs framework
+
 
 Requirements
 --------------------------------------
 
-Similar with build jQuery, you need to have GNU make 3.8 or later, Node.js 0.4.12 or later, and git 1.7 or later.
-(Earlier versions might work OK, but are not tested.)
+* rust
+* nodejs
+* nextjs
 
-Windows users have two options:
 
-1. Install [msysgit](https://code.google.com/p/msysgit/) (Full installer for official Git),
-   [GNU make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm), and a
-   [binary version of Node.js](http://node-js.prcn.co.cc/). Make sure all three packages are installed to the same
-   location (by default, this is C:\Program Files\Git).
-2. Install [Cygwin](http://cygwin.com/) (make sure you install the git, make, and which packages), then either follow
-   the [Node.js build instructions](https://github.com/ry/node/wiki/Building-node.js-on-Cygwin-%28Windows%29) or install
-   the [binary version of Node.js](http://node-js.prcn.co.cc/).
 
-Mac OS users should install Xcode (comes on your Mac OS install DVD, or downloadable from
-[Apple's Xcode site](http://developer.apple.com/technologies/xcode.html)) and
-[http://mxcl.github.com/homebrew/](Homebrew). Once Homebrew is installed, run `brew install git` to install git,
-and `brew install node` to install Node.js.
+NPM Mirror
+---------------------------------------
 
-Linux/BSD users should use their appropriate package managers to install make, git, and node, or build from source
-if you swing that way. Easy-peasy.
+$ npm config set registry https://registry.npmmirror.com
+
+$ npm config get registry
+
+$ npm install -g cnpm --registry=https://registry.npmmirror.com
 
 
 
@@ -32,11 +27,17 @@ How to build
 ----------------------------
 
 1. `git clone https://github.com/jsnext/jsnext.git`
+1. `npm install`
+1. `npm run dev`
 
-2. `make clean`
 
-3. `make main`
 
-4. `make demo`
 
-5. go into the 'dist' folder, open main.htm file to see the samples
+References
+----------------------------
+
+- https://cnpmjs.org/
+- https://nextjs.org/docs/getting-started
+- https://cloud.tencent.com/developer/article/1372949
+- https://nextjs.org/examples
+- https://github.com/vercel/next.js/tree/canary/examples
